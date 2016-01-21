@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*********** CORE ***********/
+* { margin:0px; padding:0px; }
+
+.blinker { margin-left:3px; display:inline-block; vertical-align:middle; height:20px; width:2px; top:0; bottom:0; animation-name:blinkcst; animation-iteration-count:infinite; animation-duration:1.08s; -moz-animation-name:blinkcst; -moz-animation-iteration-count:infinite; -moz-animation-duration:1.08s; -webkit-animation-name:blinkcst; -webkit-animation-iteration-count:infinite; -webkit-animation-duration:1.08s; }
+@keyframes blinkcst {
+	50% {		
+		background-color:transparent;	
+	}
+	100% {		
+		background-color:#000;	
+	}
+}
+
+@-moz-keyframes blinkcst {
+	50% {		
+		background-color:transparent;	
+	}
+	100% {		
+		background-color:#000;	
+	}
+}
+
+@-webkit-keyframes blinkcst {
+	50% {		
+		background-color:transparent;	
+	}
+	100% {		
+		background-color:#000;	
+	}
+}
+
